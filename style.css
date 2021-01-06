@@ -1,0 +1,348 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+section{
+    overflow: hidden;
+    padding:35px 0;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+h1{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.para{
+    font-size: 20px;
+    line-height: 1.4;
+    margin-top: 30px;
+}
+
+.button{
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: linear-gradient(90deg,salmon,tomato);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-top: 30px;
+    display: inline-block;
+}
+img{
+    width: 100%;
+    height: 80%;
+
+}
+a{
+    cursor: pointer;
+}
+
+
+/* Navigation Section */
+
+.navigation-section{
+    background-color: rgb(226, 229, 231);
+}
+.navigation{
+    float: right;
+    display: block;
+}
+.navigation li{
+    list-style: none;
+    float: left; 
+    margin-left: 30px;   
+}
+
+.navigation li a{
+    text-decoration: none;
+    color: #333333;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navigation li:hover a{
+    color: salmon;
+}
+.intro{
+    margin-left: 30px;
+    margin-top: 60px;
+}
+
+
+/* Top Section */
+
+
+.top-section{
+    background-color: rgb(226, 229, 231);
+}
+.intro{
+    padding-top: 55px;
+}
+.mydiv{
+    width: 40%;
+    float: left;
+    margin:0 50px;
+}
+.top-section .name{
+    color: salmon;
+    margin-bottom: 30px;
+}
+
+.top-img{
+    margin-left: 55px;
+}
+.about-intro{
+    margin-top: 60px;
+}
+
+/* Portfolio Section */
+.work-section{
+    background-color: rgb(226, 229, 231);
+}
+.work-main-header{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.work-main-header span{
+    color: salmon;
+}
+.floating-elements{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+.floating-elements .work{
+    width: 25%;
+    float: left;
+    margin-left: 85px;
+    padding: 20px;
+    border-radius:15px ;
+    -webkit-border-radius:15px ;
+    -moz-border-radius:15px ;
+    -ms-border-radius:15px ;
+    -o-border-radius:15px ;
+    background:#fff;
+    box-shadow: -1px 3px 20px 5px rgba(0,0,0,.3);
+}
+
+.work-main{
+    padding: 0px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.work img{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+
+}
+.work-header{
+    font-size: 22px;
+    margin: 20px 0;
+    color: #333333;
+}
+
+.work-para{
+    color: rgb(117, 117, 117);
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+.work1 .work-main{
+    background-color: rgb(185, 250, 236);
+}
+
+.work3 .work-main{
+    background-color:rgb(226, 248, 192);
+}
+
+.work2 .work-main{
+    background-color: rgb(250, 218, 215);
+}
+
+
+/* RESUME SECTION */
+
+.resume-header{
+    text-align: center;
+    color: #333333;
+    margin-bottom: 40px;
+}
+.resume-header span{
+    color: tomato;
+}
+.resume-section .edu-exp{
+    float: left;
+    
+}
+.resume-sub-header{
+    font-size: 40px;
+    font-weight: normal;
+    color: #333333;
+    margin-bottom: 30px;
+}
+.edu-exp{
+    width: 35%;
+}
+.education{
+    margin-right: 120px;
+    margin-left: 80px;
+}
+.experience{
+    margin-left: 120px;
+}
+.sub-resume{
+    width: 100%;
+    padding: 25px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: -1px 3px 20px 5px rgba(0,0,0,.3);
+    margin-bottom: 40px;
+}
+.sub-resume h4{
+    font-size: 20px;
+    font-weight: normal;
+}
+.sub-resume h3{
+    color: #333333;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: purple;
+}
+.sub-resume .para{
+    margin: 10px 0;
+}
+.sub-resume .para:last-child{
+    font-weight: bold;
+    color: purple
+}
+
+.education .sub-resume:nth-child(odd),.experience .sub-resume:nth-child(even){
+    background-color: rgb(250, 218, 215);
+    border: 1px solid rgb(250, 213, 209);
+}
+
+.education .sub-resume:nth-child(even),.experience .sub-resume:nth-child(odd){
+    background-color:rgb(217, 250, 167);
+    border: 1px solid rgb(210, 250, 150);
+}
+
+
+/* WORK INQUIRY SECTION */
+.work-inquiry-section{
+    background-color: rgb(226, 229, 231);
+}
+.main-inquiry{
+    width: 40%;
+    margin: 0 auto;
+    background-color: red;
+    padding: 40px 40px;
+    overflow: hidden;
+    background: linear-gradient(rgba(90,90,233,0),rgba(91, 91, 235,0)),url(./Backgorund/Group_33094_1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.main-inquiry> h1{
+    float: left;
+}
+.main-inquiry h1{
+    font-size: 25px;
+    color: #fff;
+    font-weight: normal;
+    font-weight: bold;
+}
+.main-inquiry a{
+    float: right;
+    margin: 0;
+    font-size: 17px;
+    padding: 10px 15px;
+}
+
+.contact-section h1{
+    color: #333333;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.contact-section h1 span{
+    color:tomato;
+}
+
+.contact-box{
+    width: 40%;
+    background-color: rgb(253, 184, 171);
+    text-align: center;
+    padding: 40px 30px;
+    float: left;
+    box-shadow: -1px 3px 20px 5px rgba(0,0,0,.3);
+    margin: 0 60px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.contact-box h3{
+    font-size: 25px;
+    color:purple;
+    text-transform: uppercase;
+  
+    margin-bottom: 30px;
+    
+}
+.contact-box h2{
+    color: #333333;
+}
+
+.call{
+    background-color: rgb(210, 250, 150);
+}
+.call h3{
+   color: green;
+}
+.contact{
+    overflow: hidden;
+}
+
+footer{
+    padding: 15px;
+    background-color: rgb(226, 229, 231);
+}
+footer h2{
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(77, 77, 77);
+    text-align: center;
+}
+
+footer h2 span{
+    color: tomato;
+}
